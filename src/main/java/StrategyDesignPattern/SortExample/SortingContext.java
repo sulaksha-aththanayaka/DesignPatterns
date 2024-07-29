@@ -1,4 +1,4 @@
-package StrategyDesignPattern;
+package StrategyDesignPattern.SortExample;
 
 public class SortingContext {
     private SortingStrategy sortingStrategy;
