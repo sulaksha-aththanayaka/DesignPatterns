@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPattern.ShapeExample;
 
 public class RedShapeDecorator extends ShapeDecorator{
     public RedShapeDecorator(Shape shapeDecorator) {

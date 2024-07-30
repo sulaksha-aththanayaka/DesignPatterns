@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPattern.ShapeExample;
 
 public class Circle implements Shape{
     public void draw(){

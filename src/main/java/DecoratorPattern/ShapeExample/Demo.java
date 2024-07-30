@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPattern.ShapeExample;
 
 public class Demo {
     public static void main(String[] args){
