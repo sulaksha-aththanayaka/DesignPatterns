@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package DecoratorPattern.ShapeExample;
 
 public class Rectangle implements Shape{
     @Override
