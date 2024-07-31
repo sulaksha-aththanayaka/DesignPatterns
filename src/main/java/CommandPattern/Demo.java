@@ -10,9 +10,19 @@ public class Demo {
         Command changeChannel = new ChangeChannelCommand(tv);
         Command adjustVolume = new AdjustVolumeCommand(stereo);
 
-        turnTvOn.execute();
-        turnTvOff.execute();
-        changeChannel.execute();
-        adjustVolume.execute();
+        RemoteControl remoteControl = new RemoteControl();
+
+        remoteControl.setCommand(turnTvOn);
+        remoteControl.pressButton();
+
+        remoteControl.setCommand(turnTvOff);
+        remoteControl.pressButton();
+
+        remoteControl.setCommand(changeChannel);
+        remoteControl.pressButton();
+
+        remoteControl.setCommand(adjustVolume);
+        remoteControl.pressButton();
+
     }
 }
